@@ -19,7 +19,7 @@ class Author
     title = Post.new(title)
     @posts << title
     title.author = self
-    # @@count +=1
+    # @@count += 1
     add_post(title)
   end
 
