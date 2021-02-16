@@ -14,7 +14,6 @@ class Artist
     @@count += 1
   end
   
-  
   def songs
     @songs
   end
